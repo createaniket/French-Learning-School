@@ -1,7 +1,7 @@
 import React from "react";
 import "./LogoStrip.css";
 
-import LeftLogo from "../assets/images/Vector.svg";   // your first PNG
+import LeftLogo from "../assets/images/Vector.png";   // your first PNG
 import RightLogo from "../assets/images/logo.png"; // your second PNG
 import CrossIcon from "../assets/images/x.svg"; // OR you can use plain "×" text
 
