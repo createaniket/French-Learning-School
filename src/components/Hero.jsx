@@ -69,7 +69,7 @@ If you want to learn French the right way, avoid beginner mistakes, and follow a
                 className="cta-btn"
                 onClick={() => window.location.href = "https://rzp.io/rzp/0iBhgVwy"}
               >
-                Join the Trial Class at ₹99 ₹999
+                Join the Trial Class at ₹99
 <span className="strike">₹999</span>
               </button>
 
