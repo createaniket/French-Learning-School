@@ -13,7 +13,7 @@ export default function TestimonialsSection() {
     },
     {
       text: `“I work full time, so I needed a simple plan. 
-      The roadmap they gave made German feel doable. 
+      The roadmap they gave made french feel doable. 
       I finally know how long A1 to B2 will take for me.”`,
       name: "Rahul Verma",
       role: "Working Professional",
@@ -22,10 +22,10 @@ export default function TestimonialsSection() {
       text: `“I wasted 2 months watching random YouTube videos. 
       This webinar gave me more clarity in 30 minutes than everything else combined.”`,
       name: "Simran Kaur",
-      role: "Student Planning for Germany",
+      role: "Student Planning for frenchy",
     },
     {
-      text: `“I needed German for Germany jobs. 
+      text: `“I needed french for frenchy jobs. 
       The level guidance and exam tips were spot on. 
       Highly recommend this if you're serious about learning.”`,
       name: "Mohammed Faisal",
