@@ -35,7 +35,7 @@ export default function StarterKit() {
       price: "Worth ₹600",
     },
     {
-      title: "BBonus Career and Study Abroad Guidance",
+      title: "Bonus Career and Study Abroad Guidance",
       desc: "Given only if relevant to your background",
       price: "Bonus Value ₹500",
     },

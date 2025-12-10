@@ -4,7 +4,7 @@ import Check from "../assets/images/check.svg";
 
 export default function FeaturesSection() {
   const featuresTop = [
-    "A live expert led trial class",
+    "A LIVE expert led trial class",
     "Clarity on your correct starting level",
     "A structured roadmap for A1 to B2",
     "Timeline to finish each level realistically",
@@ -12,10 +12,10 @@ export default function FeaturesSection() {
   ];
 
   const featuresBottom = [
-    "A mini assessment to identify your current level",
-    "Do’s and don’ts that save months of wasted time",
-    "A simple ninety day study plan",
-    "Free career counselling"
+    "A Mini Assessment to identify your current level",
+    "Do’s and Don’ts that save months of wasted time",
+    "A simple 90 Days study plan",
+    "Free Career Counselling"
   ];
 
   return (
