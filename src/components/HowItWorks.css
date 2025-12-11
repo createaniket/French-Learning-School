@@ -183,6 +183,7 @@
   .how-container {
     gap: 30px;
     text-align: left;  /* looks cleaner on mobile */
+            width: 90vw;
   }
 
   .how-title {
