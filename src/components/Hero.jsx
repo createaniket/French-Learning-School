@@ -17,13 +17,29 @@ export default function Hero() {
       <section className="hero-top-sect">
         <div className="max-w-6xl mx-auto px-6 text-center">
 
-          <h1 className="hero-top-head text-center leading-tight">
+          {/* <h1 className="hero-top-head text-center leading-tight">
             <span className="block">French Language Learning</span> <br/>
             <span className="block main-color-sit">
               Trial Class For Beginners To Advanced
             </span>
             <span className="block-hro-lvl-blk">Levels</span>
-          </h1>
+          </h1> */}
+
+          <h1 className="hero-top-head text-center leading-tight">
+  <span className="block">French Language Learning</span> 
+  <br/>
+
+  <span className="block main-color-sit">
+    Trial Class For Beginners To
+  </span>
+
+  {/* 🔥 NEW LINE GROUPED FOR MOBILE */}
+  <span className="block hro-mobile-advanced-line">
+    <span className="main-color-sit">Advanced</span> 
+    <span className="lvl-text"> Levels</span>
+  </span>
+</h1>
+
 
           <p className="hero-top-txt">
        Get clarity on where to start, how to progress from A1 to B2, and how to prepare smartly for exams. All inside one powerful ₹99 live trial class.
