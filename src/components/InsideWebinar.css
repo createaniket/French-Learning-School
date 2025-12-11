@@ -95,3 +95,20 @@
   background: #5a3bff; /* strong center dot */
   border-radius: 50%;
 }
+
+
+
+
+/* Small Mobile - 480px */
+@media (max-width: 480px) {
+
+  .wb_title {
+    font-size: 28px;
+
+    line-height: 36px;
+
+}
+
+
+}
+

@@ -97,3 +97,17 @@
     max-width: 100%;
   }
 }
+
+
+/* Small Mobile - 480px */
+@media (max-width: 480px) {
+
+  .why-title, .why-price {
+    font-size: 28px;
+    line-height: 36px;
+
+  }
+
+
+  
+}

@@ -15,7 +15,7 @@
 
 .testimonial-sub {
   font-size: 16px;
-    font-weight: 400;
+  font-weight: 400;
   line-height: 24px;
   color: #4a4a4a;
   margin-bottom: 4px;
@@ -23,7 +23,7 @@
 
 .testimonial-sub2 {
   font-size: 16px;
-    font-weight: 400;
+  font-weight: 400;
   line-height: 24px;
   color: #555;
   margin-bottom: 50px;
@@ -58,12 +58,12 @@
 
   /* Soft gradient glow like your screenshot */
   box-shadow: 0px 20px 40px rgba(100, 120, 255, 0.15),
-              0px -4px 12px rgba(120, 140, 255, 0.08);
+    0px -4px 12px rgba(120, 140, 255, 0.08);
 }
 
 .testimonial-text {
   font-size: 16px;
-    font-weight: 400;
+  font-weight: 400;
   line-height: 24px;
   color: #222;
   margin-bottom: 20px;
@@ -78,16 +78,32 @@
 
 .name {
   font-size: 16px;
-    font-weight: 600;
+  font-weight: 600;
   line-height: 24px;
 }
 
 
-
 .role {
   font-size: 12px;
-    font-weight: 400;
+  font-weight: 400;
   line-height: 18px;
   color: #666;
   margin-top: 2px;
+}
+
+
+
+
+
+
+
+/* Small Mobile - 480px */
+@media (max-width: 480px) {
+
+.testimonial-title {
+    font-size: 28px;
+    line-height: 36px;
+
+  }
+
 }

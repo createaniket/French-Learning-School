@@ -196,11 +196,15 @@
 /* 🌟 Mobile (≤ 600px) */
 @media (max-width: 600px) {
 
+
+
+
   .hero-wrapper {
     padding: 30px 16px;
     gap: 24px;
     text-align: left;
     align-items: flex-start;
+        width: 90vw;
   }
 
   .hero-content h1 {
@@ -238,7 +242,7 @@
 bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
-        width: 60%;
+        width: 75%;
         font-size: 14px;
         line-height: 22px;
         padding: 12px 16px;

@@ -103,3 +103,17 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Small Mobile - 480px */
+@media (max-width: 480px) {
+
+.starter-heading {
+    font-size: 28px;
+
+    line-height: 36px;
+
+  }
+
+
+}
