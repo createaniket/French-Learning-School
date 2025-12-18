@@ -18,7 +18,7 @@
 .faq-box {
   width: 100%;
   max-width: 850px;
-  background: #e8f1ff;
+  background: #EDF3C6;
   padding: 35px 45px;
   border-radius: 28px;
 }
@@ -44,7 +44,7 @@
 }
 
 .active-q {
-  color: #7b3ff2; /* your purple color */
+  color: #38400D; /* your purple color */
 }
 
 .faq-arrow {

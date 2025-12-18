@@ -8,7 +8,7 @@
   /* GLASS BACKGROUND */
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  background: rgba(224, 218, 254, 0.45);
+background: rgba(237, 243, 198, 0.65);
 
   position: fixed;
   bottom: 0px; /* ALWAYS FIXED */
@@ -37,7 +37,7 @@
 .bs-price-big {
   font-size: 70px;
   font-weight: 800;
-  color: #0c2340;
+  color: #664016;
   line-height: 1;
 }
 
@@ -80,11 +80,11 @@
 }
 
 .bs-btn {
-  background: #5E3BEE;
+  background: #D3E373;
   border: none;
   padding: 18px 36px;
   border-radius: 50px;
-  color: white;
+  color: #38400D;
   font-size: 20px;
   font-weight: 600;
   position: relative;
@@ -96,7 +96,7 @@
   top: -12px;
   right: 18px;
   background: white;
-  color: #5E3BEE;
+  color: #38400D;
   padding: 4px 12px;
   font-size: 13px;
   border-radius: 14px;

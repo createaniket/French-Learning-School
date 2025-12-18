@@ -13,9 +13,6 @@
   color: #1A1A1A;
 }
 
-.purple-text {
-  color: #6938EF;
-}
 
 .sub-head {
   margin-top: 16px;
@@ -34,11 +31,13 @@
 }
 
 .starter-card {
-  background: #F7F9FF;
+  background: #FBFCF2;
   padding: 22px;
   border-radius: 14px;
   text-align: left;
-  border-bottom: 4px solid #7C3AED;
+    box-shadow: inset 0px -8px 0px 0px #38400d;
+
+  color: #38400D;
 }
 
 .card-top {
@@ -52,7 +51,7 @@
   font-size: 18px;
   font-weight: 600;
   line-height: 27px;
-  color: #1A1A1A;
+  color: #38400D;
 }
 
 .desc {
@@ -69,14 +68,14 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
-  color: #6938EF;
+  color: #38400D;
   text-align: center;
 }
 
 /* TOTAL BOX INSIDE GRID (Right Column Last Row) */
 .starter-total-box {
-  background: #8B5CF6;
-  color: white;
+  background: #D3E373;
+  color: #000;
   padding: 30px;
   border-radius: 16px;
   text-align: center;

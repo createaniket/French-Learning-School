@@ -26,23 +26,23 @@ export default function Hero() {
           </h1> */}
 
           <h1 className="hero-top-head text-center leading-tight">
-  <span className="block">French Language Learning</span> 
-  <br/>
+            <span className="block">French Language Learning</span>
+            <br />
 
-  <span className="block main-color-sit">
-    Trial Class For Beginners To
-  </span>
+            <span className="block main-color-sit">
+              Trial Class For Beginners To
+            </span>
 
-  {/* 🔥 NEW LINE GROUPED FOR MOBILE */}
-  <span className="block hro-mobile-advanced-line">
-    <span className="main-color-sit">Advanced</span> 
-    <span className="lvl-text"> Levels</span>
-  </span>
-</h1>
+            {/* 🔥 NEW LINE GROUPED FOR MOBILE */}
+            <span className="block hro-mobile-advanced-line">
+              <span className="main-color-sit">Advanced</span>
+              <span className="lvl-text"> Levels</span>
+            </span>
+          </h1>
 
 
           <p className="hero-top-txt">
-       Get clarity on where to start, how to progress from A1 to B2, and how to prepare smartly for exams. All inside one powerful ₹99 live trial class.
+            Get clarity on where to start, how to progress from A1 to B2, and how to prepare smartly for exams. All inside one powerful ₹99 live trial class.
 
           </p>
 
@@ -50,7 +50,7 @@ export default function Hero() {
 
             <div className="info-box">
               <p>
-If you want to learn French the right way, avoid beginner mistakes, and follow a proper learning roadmap, this trial class is made for you.
+                If you want to learn French the right way, avoid beginner mistakes, and follow a proper learning roadmap, this trial class is made for you.
               </p>
             </div>
 
@@ -86,7 +86,7 @@ If you want to learn French the right way, avoid beginner mistakes, and follow a
                 onClick={() => window.location.href = "https://rzp.io/rzp/0iBhgVwy"}
               >
                 Join the Trial Class at ₹99
-<span className="strike">₹999</span>
+                <span className="strike">₹999</span>
               </button>
 
 

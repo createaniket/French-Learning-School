@@ -13,7 +13,7 @@
   font-size: 48px;
   font-weight: 600;
   line-height: 60px;
-  color: #6346FA;
+
 }
 
 .cta-title span {
@@ -32,24 +32,23 @@
 
 .cta-highlight-box {
   margin: 40px auto;
-  background: #eaf3ff;
+  background: #EDF3C6;
   padding: 22px 32px;
   width: fit-content;
   border-radius: 16px;
   font-size: 14px;
   font-weight: 600;
-  color: #6346FA;
+  color: #38400D;
   line-height: 21px;
 
   /* 🔥 Perfect bottom curved purple shadow */
-  box-shadow: inset 0px -8px 0px 0px rgba(98, 73, 255, 0.6);
+    box-shadow: inset 0px -8px 0px 0px #38400d;
 }
 
 
 .cta-join-btn {
   margin-top: 20px;
-  background: #6346FA;
-  color: white;
+  background: #D3E373;
   border: none;
   padding: 20px 40px;
   font-size: 20px;
@@ -62,7 +61,7 @@
 
 .cta-join-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0px 8px 20px rgba(77, 62, 255, 0.3);
+    box-shadow: inset 0px -8px 0px 0px #38400d;
 }
 
 .cta-note-text {

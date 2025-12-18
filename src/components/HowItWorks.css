@@ -54,12 +54,12 @@
 
 /* BOX */
 .how-box {
-  background: #f4f8ff;
+  background: #EDF3C680;
   padding: 20px;
   border-radius: 16px;
   position: relative;
   /* 🔥 Perfect bottom curved purple shadow */
-  box-shadow: inset 0px -4px 0px rgba(98, 73, 255, 0.6);
+    box-shadow: inset 0px -8px 0px 0px #38400d;
 
 }
 
@@ -78,13 +78,13 @@
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background: #e5e5e5;
-  border: 5px solid #d3d3d3;
+  background: #E2E3BF;
+  border: 5px solid #c6c7a6;
   position: relative;
 }
 
 .timeline-dot.active {
-  border-color: #c7baff;
+  border-color: #c6c7a6;
 }
 
 .timeline-dot.active::after {
@@ -92,7 +92,7 @@
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #624bff;
+  background: #998F43;
   border-radius: 50%;
   top: 50%;
   left: 50%;
@@ -117,7 +117,7 @@
 }
 
 .step-title.active {
-  color: #6a56ff;
+  color: #998F43;
   font-weight: 400;
 }
 

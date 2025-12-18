@@ -1,6 +1,6 @@
 .strip-wrapper {
   width: 100%;
-  background: #6c63ff; /* purple strip */
+  background: #D3E373; /* purple strip */
   padding: 10px 0;
   position: sticky;
   top: 0;
@@ -20,7 +20,7 @@
   white-space: nowrap;
   font-size: 16px;
   font-weight: 500;
-  color: white;
+  color: #000;
 
   /* Infinite scroll animation */
   animation: marquee 25s linear infinite;

@@ -30,13 +30,11 @@
 .why-price {
   font-size: 38px;
   font-weight: 700;
-  color: #4a3aff;
+  color: #000;
   margin-bottom: 20px;
 }
 
-.why-price span {
-  color: #4a3aff;
-}
+
 
 .why-desc {
   font-size: 18px;
@@ -57,16 +55,16 @@
 }
 
 .why-strip {
-  background: #eaf3ff;
+  background: #EDF3C6;
   padding: 20px 28px;
   border-radius: 16px;
   font-size: 14px;
   font-weight: 600;
   line-height: 21px;
-  color: #4a3aff;
+  color: #38400D;
   width: fit-content;
   /* 🔥 Perfect bottom curved purple shadow */
-  box-shadow: inset 0px -4px 0px rgba(98, 73, 255, 0.6);
+    box-shadow: inset 0px -8px 0px 0px #38400d;
 
 }
 

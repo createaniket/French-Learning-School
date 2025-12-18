@@ -1,6 +1,6 @@
 .webinar-section {
   padding: 80px 20px;
-  background: linear-gradient(180deg, #e6dff5 0%, #f0ebff 50%, #ffffff 100%);
+  background: linear-gradient(180deg, #FBFCF2 0%, #FBFCF2 50%, #ffffff 100%);
   text-align: center;
 }
 
@@ -40,14 +40,14 @@
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   transition: 0.2s ease;
-  text-align: center;
+  text-align: left;
   /* ← center-align everything inside */
 }
 
 .grid-card img {
   display: block;
   /* ← remove inline gap */
-  margin: 0 auto 12px auto;
+  margin: 00;
   /* ← centers the icon horizontally */
 
   height: auto;

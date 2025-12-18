@@ -8,9 +8,7 @@
 /* HERO TEXT SECTION */
 /* ------------------------ */
 
-.main-color-sit{
-  color: #6c63ff;
-}
+
 
 .hero-top-head {
   color: #242325;
@@ -53,19 +51,19 @@
 }
 
 .info-box {
-  background: #eaf1ff;
+  background: #EDF3C6;
   padding: 30px;
   border-radius: 16px;
   max-width: 450px;
   height: 95px;
 
   /* 🔥 Perfect bottom curved purple shadow */
-  box-shadow: inset 0px -4px 0px rgba(98, 73, 255, 0.6);
+    box-shadow: inset 0px -8px 0px 0px #38400d;
 }
 
 
 .info-box p {
-  color: #4F38C8;
+  color: #38400D;
   font-size: 16px;
   line-height: 24px;
   font-weight: 600;
@@ -113,7 +111,7 @@
 
 /* CTA */
 .cta-btn {
-  background: #6350ff;
+  background: #D3E373;
   color: white;
   padding: 18px 40px;
   border: none;

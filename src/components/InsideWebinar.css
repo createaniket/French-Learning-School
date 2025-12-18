@@ -81,7 +81,7 @@
 .wb_outer_dot {
   width: 22px;
   height: 22px;
-  background: rgba(138, 113, 255, 0.25); /* light glow */
+  background: #D3E373; /* light glow */
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -92,7 +92,7 @@
 .wb_inner_dot {
   width: 8px;
   height: 8px;
-  background: #5a3bff; /* strong center dot */
+  background: #38400D; /* strong center dot */
   border-radius: 50%;
 }
 
