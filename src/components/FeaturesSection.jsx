@@ -1,9 +1,10 @@
 import React from "react";
 import "./FeaturesSection.css";
+import webinarImg from "../assets/images/webinarImg.png";
 import Check from "../assets/images/check.svg";
 
 export default function FeaturesSection() {
-  const featuresTop = [
+  const leftFeatures = [
     "A LIVE expert led trial class",
     "Clarity on your correct starting level",
     "A structured roadmap for A1 to B2",
@@ -11,47 +12,57 @@ export default function FeaturesSection() {
     "Exam strategy for DELF, TEF and other tests"
   ];
 
-  const featuresBottom = [
+  const rightFeatures = [
     "A Mini Assessment to identify your current level",
     "Do’s and Don’ts that save months of wasted time",
     "A simple 90 Days study plan",
-    "Free Career Counselling"
+    "Free Career Counselling",
+    "Get 50 percent off on the full course. Your ₹99 will be adjusted."
   ];
 
   return (
-    <div className="features-wrapper">
-      <h1 className="features-title">
-        Everything You Need <br /> To Start Learning French The Right Way
+    <section className="webinar-wrapper">
+      <h1 className="webinar-title-feature">
+        Everything You Need <br />
+To Start Learning French The Right Way
       </h1>
 
-      <p className="price-text">For ₹99, you get:</p>
+      <div className="webinar-content">
+        {/* Left Image */}
+        <div className="webinar-image">
+          <img src={webinarImg} alt="German Learning Session" />
+        </div>
 
-      {/* Top Row */}
-      <div className="features-grid">
-        {featuresTop.map((item, index) => (
-          <div className="feature-card" key={index}>
-           <img src={Check} alt="" />
-            <p>{item}</p>
+        {/* Right Content */}
+        <div className="webinar-details">
+          <h3 className="price-title">For ₹99, you get:</h3>
+
+          <div className="features-grid">
+            <ul>
+              {leftFeatures.map((item, index) => (
+                <li key={index}>
+                  <img src={Check} alt="check" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+
+            <ul>
+              {rightFeatures.map((item, index) => (
+                <li key={index}>
+                  <img src={Check} alt="check" />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
-        ))}
-      </div>
 
-      {/* Bottom Row */}
-      <div className="features-grid bottom-row">
-        {/* Normal cards */}
-        {featuresBottom.map((item, index) => (
-          <div className="feature-card" key={index}>
-    <img src={Check} alt="" />
-            <p>{item}</p>
+          <div className="bonus-box">
+            <span className="bonus-tag">Bonus</span>
+            <span>Access to free resources after the session</span>
           </div>
-        ))}
-
-        {/* Bonus Card */}
-        <div className="feature-card bonus-card">
-          <span className="bonus-tag">Special Offer</span>
-          <p>Get 50 percent off on the full course. Your ₹99 will be adjusted.</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
