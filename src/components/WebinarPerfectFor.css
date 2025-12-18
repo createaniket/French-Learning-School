@@ -65,16 +65,17 @@
 }
 
 .grid-card p {
-  color: #333;
-  font-size: 14px;
-  line-height: 21px;
-  font-weight: 600;
+    color: #333;
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 500;
 }
 
 /* Responsive (optional) – on mobile make 2 columns */
 @media (max-width: 768px) {
   .grid-container {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
   }
 }
 
@@ -88,5 +89,11 @@
     line-height: 36px;
 
   }
+
+
+  .content-wrapper {
+  width: 90vw;
+  margin: 0 auto;
+}
   
 }
