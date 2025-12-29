@@ -21,6 +21,8 @@ import BottomStrip from "./components/BottomStrip";
 import LogoStrip from "./components/LogoStrip";
 import ThankYou from "./components/ThankYou"; // ⬅️ Add this
 
+import CanadaPage from "./components/CanadaPage";
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -28,6 +30,8 @@ export default function App() {
 
         {/* 🎉 THANK YOU PAGE ROUTE */}
         <Route path="/thankyou" element={<ThankYou />} />
+
+        <Route path="/tef-india-trial-class" element={<CanadaPage />} />
 
         {/* ⭐ MAIN WEBSITE ROUTE */}
         <Route
