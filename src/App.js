@@ -31,7 +31,7 @@ export default function App() {
         {/* 🎉 THANK YOU PAGE ROUTE */}
         <Route path="/thankyou" element={<ThankYou />} />
 
-        <Route path="/tef-india-trial-class" element={<CanadaPage />} />
+        <Route path="/tef-canada-trial-class" element={<CanadaPage />} />
 
         {/* ⭐ MAIN WEBSITE ROUTE */}
         <Route
