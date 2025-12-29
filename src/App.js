@@ -22,6 +22,7 @@ import LogoStrip from "./components/LogoStrip";
 import ThankYou from "./components/ThankYou"; // ⬅️ Add this
 
 import CanadaPage from "./components/CanadaPage";
+import IndiaPage from "./components/IndiaPage";
 
 export default function App() {
   return (
@@ -32,6 +33,8 @@ export default function App() {
         <Route path="/thankyou" element={<ThankYou />} />
 
         <Route path="/tef-canada-trial-class" element={<CanadaPage />} />
+
+        <Route path="/tef-india-trial-class" element={<IndiaPage />} />
 
         {/* ⭐ MAIN WEBSITE ROUTE */}
         <Route
