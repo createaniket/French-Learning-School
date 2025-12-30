@@ -55,7 +55,7 @@ export default function BottomStrip() {
       <div className="bs-cta">
         <button
           className="bs-btn"
-          onClick={() => (window.location.href = "https://razorpay.com/payment-link/plink_RxQTmGOxGUvJBq")}
+          onClick={() => (window.location.href = "https://rzp.io/rzp/tef-trial-class-ca")}
         >
           <span className="bs-badge">22 Seats left</span>
           Book your seat now

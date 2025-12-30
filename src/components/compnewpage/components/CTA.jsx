@@ -23,7 +23,7 @@ export default function CTA() {
 
 
 
-        <button className="cta-join-btn" onClick={() => window.location.href = "https://razorpay.com/payment-link/plink_RxQTmGOxGUvJBq"}>
+        <button className="cta-join-btn" onClick={() => window.location.href = "https://rzp.io/rzp/tef-trial-class-ca"}>
           Join The CA$ 5 Trial Class Now
 
         </button>

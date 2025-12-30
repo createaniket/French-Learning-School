@@ -15,7 +15,7 @@ Career guidance will be provided as a free add on, only if relevant to your goal
 
       </div>
 
-      <button className="cta-btn"    onClick={() => window.location.href = "https://razorpay.com/payment-link/plink_RxQTmGOxGUvJBq"}  >Book your seat now</button>
+      <button className="cta-btn"    onClick={() => window.location.href = "https://rzp.io/rzp/tef-trial-class-ca"}  >Book your seat now</button>
     </div>
   );
 }

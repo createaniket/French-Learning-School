@@ -84,7 +84,7 @@ All inside one powerful CA$ 5 live trial class.
 
               <button
                 className="cta-btn"
-                onClick={() => window.location.href = "https://razorpay.com/payment-link/plink_RxQTmGOxGUvJBq"}
+                onClick={() => window.location.href = "https://rzp.io/rzp/tef-trial-class-ca"}
               >
                 Join the Trial Class at CA$ 5
                 <span className="strike">CA$ 16</span>
